@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #131811;   
+}
+
+.title {
+    color: #EFE9F4;
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* background-image: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+}
+
+.container {
+    background-color: #EFE9F4;
+    max-width: 29em;
+    display: flex;
+    flex-direction: column;
+    margin: 3em auto;
+    /* box-shadow: -3px 3px 10px 0px rgba(0,0,0,0.75); */
+}
+
+.inputContainer,.outputContainer {
+    color: #EFE9F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    word-break: break-all;
+    padding: 3em;
+}
+
+.inputContainer {
+    background-color: #1F271B;
+    color: #FF6663;
+}
+
+.outputContainer {
+    background-color: #FF6663;
+    color: #1F271B;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#inputNumber, #outputNumber {
+    background: none;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    color: #EFE9F4;
+    width: 75%;
+    height: 2em;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    padding: .3em;
+    margin: .3em;
+}
+
+#inputNumber:focus {
+    outline: none;
+}
+
+#inputNumber::placeholder {
+   color: #fff;
+   opacity: .2;
+   font-size: .7em;
+   position: relative;
+   top: -3px;
+}
+
+#outputNumber {
+    background: none;
+}
+
+@media (max-width: 850px) {
+    .container {
+        background-color: black;
+        max-width: 75%;
+        display: flex;
+        flex-direction: column;
+        margin: 2.5em auto;
+    }
+
+    #inputNumber, #outputNumber {
+        background: none;
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        color: #EFE9F4;
+        width: 80%;
+        height: 2em;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 900;
+        padding: .3em;
+        margin: .3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        background-color: black;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 2.5em auto;
+        font-size: .9em;
+    }
+
+    #inputNumber, #outputNumber {
+        background: none;
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        color: #EFE9F4;
+        width: 85%;
+        height: 2em;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 900;
+        padding: .3em;
+        margin: .3em;
+    }
+}

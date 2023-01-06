@@ -1,5 +1,7 @@
 # Bin2Dec
 
+[Link da minha solução](https://binarioparadecimal.netlify.app/)
+
 **Categoria:** 1-Iniciante
 
 Binário é um sistema numérico presente em todos os computadores digitais.
@@ -18,13 +20,13 @@ Esse desafio requer que o desenvolvedor implemente as seguintes exigências:
 
 ## Histórias de Usuário
 
-- [ ] Usuário pode inserir até 8 dígitos binários em um único campo de entrada.
-- [ ] Usuário deve ser notificado se qualquer coisa além de 0 e 1 for inserido
-- [ ] Usuário vê os resultados de uma vez, contendo o decimal (base 10) equivalente do número binário inserido
+- [ x ] Usuário pode inserir até 8 dígitos binários em um único campo de entrada.
+- [ x ] Usuário deve ser notificado se qualquer coisa além de 0 e 1 for inserido
+- [ x ] Usuário vê os resultados de uma vez, contendo o decimal (base 10) equivalente do número binário inserido
 
 ## Bônus
 
-- [ ] Usuário pode inserir um número variado de dígitos binários.
+- [ x ] Usuário pode inserir um número variado de dígitos binários.
 
 # Fontes e links úteis
 
